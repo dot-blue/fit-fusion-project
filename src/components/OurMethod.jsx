@@ -7,7 +7,7 @@ import perk3 from "../assets/perk3.svg";
 function OurMethod() {
   return (
     <div
-      className=" bg-purple-200  w-full transfrom
+      className=" bg-purple-200  w-full 
     "
     >
       <div className="max-w-[1240px] m-auto ">
@@ -15,9 +15,9 @@ function OurMethod() {
           FitFusion method really works.{" "}
         </h2>
 
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4 ">
-          <div className=" flex flex-col   w-full items-center p-6 ">
-            <div className="">
+        <div className="flex flex-col  md:flex-row items-center justify-between gap-4 ">
+          <div className="  flex-col   w-full items-center p-6 ">
+            <div className=" bg-purple-100  rounded-md	drop-shadow-md	p-6">
               <p className="text-xl font-bold">Tailored to each individual</p>
               <p className="">
                 Our team of experts will work with you to create a personalized
@@ -28,8 +28,8 @@ function OurMethod() {
             </div>
           </div>
 
-          <div className=" flex flex-col  w-full items-center p-6">
-            <div>
+          <div className="  flex-col  w-full items-center p-6">
+            <div className="bg-purple-100  rounded-md	drop-shadow-md	p-6">
               {" "}
               <p className="text-xl font-bold">Supportive community</p>
               <p>
@@ -41,8 +41,8 @@ function OurMethod() {
             </div>
           </div>
 
-          <div className=" flex flex-col   w-full items-center p-6">
-            <div>
+          <div className="  flex-col   w-full items-center p-6">
+            <div className="bg-purple-100  rounded-md	drop-shadow-md	p-6">
               <p className="text-xl font-bold">Challenging workouts</p>
               <p>
                 Our workouts are challenging, but achievable: We believe in
