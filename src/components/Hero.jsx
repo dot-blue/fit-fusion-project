@@ -53,7 +53,7 @@ function Hero() {
             </div>
 
             <div className=" pb-4">
-              <p>People love our app!</p>
+              <p className="text-gray-700">People love our app!</p>
               <div className="flex gap-2">
                 {" "}
                 <img src={fivestars} alt="" className="ml-[-3px]" />
