@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import OurMethod from "./components/OurMethod";
+import MobileApp from "./components/MobileApp";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <OurMethod />
+      <MobileApp />
     </div>
   );
 }
