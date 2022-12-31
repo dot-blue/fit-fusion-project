@@ -18,7 +18,7 @@ function MobileApp() {
         <div>
           <div className="flex flex-col md:flex-row md:items-center md:justify-center ">
             <section>
-              <div className="flex p-4 gap-2">
+              <div className="flex p-4 gap-4">
                 <div>
                   <img src={plusIcon} alt="icon" />
                 </div>
@@ -31,7 +31,7 @@ function MobileApp() {
                 </div>
               </div>
 
-              <div className="flex p-4 gap-2">
+              <div className="flex p-4 gap-4">
                 <div>
                   <img src={plusIcon} alt="icon" />
                 </div>
@@ -44,7 +44,7 @@ function MobileApp() {
                   </p>
                 </div>
               </div>
-              <div className="flex p-4 gap-2">
+              <div className="flex p-4 gap-4">
                 <div>
                   <img src={plusIcon} alt="icon" />
                 </div>
@@ -66,8 +66,8 @@ function MobileApp() {
 
       <div className="max-w-[1240px] flex justify-end gap-6 p-6">
         {" "}
-        <img className="h-10 md:h-14" src={appStore} alt="" />{" "}
-        <img className="h-10 md:h-14" src={googlePlay} alt="" />
+        <img className="h-10 md:h-10" src={appStore} alt="" />{" "}
+        <img className="h-10 md:h-10" src={googlePlay} alt="" />
       </div>
     </div>
   );

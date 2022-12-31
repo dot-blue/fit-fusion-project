@@ -4,8 +4,8 @@ import yoga from "../assets/yoga-hero.svg";
 
 function Hero() {
   return (
-    <div className="w-full h-[75%] flex flex-col ">
-      <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
+    <div className="w-full h-full flex flex-col ">
+      <div className="grid md:grid-cols-2 max-w-[1240px] m-auto  ">
         <div className="flex flex-col  md:items-start w-full  py-8 z-10  gap-2 ">
           <div className="mt-10 md:pl-6 ">
             <h1 className="text-4xl font-bold md:text-6xl ">
@@ -56,11 +56,6 @@ function Hero() {
           <img src={yoga} alt="" className="w-full md:h-2/3 " />
         </div>
       </div>
-
-      <div
-        className=" bg-purple-200  w-full 
-    "
-      ></div>
     </div>
   );
 }
