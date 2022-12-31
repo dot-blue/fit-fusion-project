@@ -7,9 +7,9 @@ import tiktok from "../assets/tiktok-icon.svg";
 
 function Footer() {
   return (
-    <div className=" bg-slate-200 flex flex-col justify-center px-4 py-6">
+    <div className=" bg-slate-100 flex flex-col justify-center px-4 py-6">
       <div className=" max-w-[1240px] flex flex-col md:flex-row  items-center justify-between  ">
-        <div className="md:basis-1/3  ">
+        <div className="md:basis-1/3 px-4 ">
           <p className="text-xl font-bold py-2 md:text-3xl ">
             Stay ahead of the game{" "}
           </p>
@@ -19,15 +19,17 @@ function Footer() {
           </p>
         </div>
 
-        <div className="bg-gray-200/40 p-6 my-4 flex flex-col ">
-          <div className="flex   ">
+        <div className=" p-6 my-4 flex flex-col ">
+          <div className="flex  gap-2 ">
             {" "}
             <input
               type="text"
               placeholder="Email address"
-              className="h-10 pl-4 "
+              className="h-10 pl-4 rounded-md"
             />
-            <button className="bg-purple-500 px-4 text-white">Subscribe</button>
+            <button className="bg-purple-500 px-4 text-white rounded-md">
+              Subscribe
+            </button>
           </div>
 
           <div className="flex pt-2 gap-2">
@@ -38,7 +40,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between   items-center">
+      <div className="flex justify-between   items-center px-4">
         <img src={logo} alt="" className="h-6" />
 
         <div className="flex gap-4 items-center">
