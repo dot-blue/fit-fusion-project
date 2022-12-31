@@ -7,7 +7,7 @@ import perk3 from "../assets/perk3.svg";
 function OurMethod() {
   return (
     <div
-      className=" bg-purple-200  w-full
+      className=" bg-purple-400  w-full
     "
     >
       <div className="max-w-[1240px] m-auto pt-6 pb-8">
