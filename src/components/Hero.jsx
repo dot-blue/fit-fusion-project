@@ -56,7 +56,7 @@ function Hero() {
               <p>People love our app!</p>
               <div className="flex gap-2">
                 {" "}
-                <img src={fivestars} alt="" />
+                <img src={fivestars} alt="" className="ml-[-3px]" />
                 <p>{`4.8 / 5 (205 reviews)`}</p>
               </div>
             </div>
