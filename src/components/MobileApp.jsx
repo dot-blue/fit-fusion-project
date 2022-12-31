@@ -6,7 +6,7 @@ import appStore from "../assets/app-store.svg";
 
 function MobileApp() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center bg-slate-50">
       <div className="max-w-[1240px] ">
         <div>
           {" "}
