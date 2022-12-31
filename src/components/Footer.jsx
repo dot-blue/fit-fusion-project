@@ -20,7 +20,7 @@ function Footer() {
         </div>
 
         <div className="bg-gray-200/40 p-6 my-4 flex flex-col ">
-          <div className="flex gap-4 md:basis-2/3 ">
+          <div className="flex   ">
             {" "}
             <input
               type="text"
