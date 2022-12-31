@@ -1,6 +1,7 @@
 import React from "react";
 
 import yoga from "../assets/yoga-hero.svg";
+import fivestars from "../assets/five-stars.svg";
 
 function Hero() {
   return (
@@ -50,8 +51,18 @@ function Hero() {
                 </div>
               </div>
             </div>
+
+            <div className=" pb-4">
+              <p>People love our app!</p>
+              <div className="flex gap-2">
+                {" "}
+                <img src={fivestars} alt="" />
+                <p>{`4.8 / 5 (205 reviews)`}</p>
+              </div>
+            </div>
           </div>
         </div>
+
         <div className=" p-6 md:flex items-center">
           <img src={yoga} alt="" className="w-full md:h-2/3 " />
         </div>
