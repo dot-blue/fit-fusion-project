@@ -36,7 +36,7 @@ function Navbar() {
 
         <div className="hidden md:flex">
           <button className="px-4 py-2 ">Sign In</button>
-          <button className="border-[1.5px] border-purple-700 px-4 py-2 font-bold text-purple-700 mr-4 hover:bg-purple-700 hover:text-white">
+          <button className="border-[1.5px] border-purple-700 px-4 py-2 font-bold text-purple-700 mr-4 hover:bg-purple-700 hover:text-white rounded-md">
             Start Now
           </button>
         </div>
@@ -92,7 +92,7 @@ function Navbar() {
                 Sign In
               </a>
             </button>
-            <button className="border-[1.5px] border-purple-700 px-4 py-2 font-bold text-purple-700 mr-4 hover:bg-purple-700 hover:text-white">
+            <button className="border-[1.5px] border-purple-700 px-4 py-2 font-bold text-purple-700 mr-4 hover:bg-purple-700 hover:text-white rounded-md">
               Start Now
             </button>
           </div>

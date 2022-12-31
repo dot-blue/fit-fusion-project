@@ -1,15 +1,10 @@
 import React from "react";
-import hero from "../assets/fitfusion-hero.svg";
-import stroke from "../assets/stroke.svg";
 
 import yoga from "../assets/yoga-hero.svg";
-import perk1 from "../assets/perk1.svg";
-import perk2 from "../assets/perk2.svg";
-import perk3 from "../assets/perk3.svg";
 
 function Hero() {
   return (
-    <div className="w-full h-full flex flex-col ">
+    <div className="w-full h-[80%] flex flex-col ">
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
         <div className="flex flex-col  md:items-start w-full  py-8 z-10  gap-2 ">
           <div className="mt-10 md:pl-6 ">
