@@ -23,13 +23,13 @@ function Navbar() {
               <a href=""> Home</a>
             </li>
             <li>
-              <a href=""> Workouts</a>
+              <a href=""> Method</a>
             </li>
             <li>
-              <a href="">Diets</a>
+              <a href="">App</a>
             </li>
             <li>
-              <a href="">FAQ</a>
+              <a href="">Newsletter</a>
             </li>
           </ul>
         </div>
@@ -81,10 +81,10 @@ function Navbar() {
         }
       >
         <ul className="py-4">
-          <li className="border-b-2 border-slate-50 w-full py-2">Workouts</li>
           <li className="border-b-2 border-slate-50 w-full py-2">Home</li>
-          <li className="border-b-2 border-slate-50 w-full py-2">Diets</li>
-          <li className="border-b-2 border-slate-50 w-full py-2">FAQ</li>
+          <li className="border-b-2 border-slate-50 w-full py-2">Method</li>
+          <li className="border-b-2 border-slate-50 w-full py-2">App</li>
+          <li className="border-b-2 border-slate-50 w-full py-2">Newsletter</li>
 
           <div className="flex items-center justify-end mt-4">
             <button className="px-4 py-2 ">
@@ -93,7 +93,7 @@ function Navbar() {
               </a>
             </button>
             <button className="border-[1.5px] border-purple-700 px-4 py-2 font-bold text-purple-700 mr-4 hover:bg-purple-700 hover:text-white">
-              Register
+              Start Now
             </button>
           </div>
         </ul>
