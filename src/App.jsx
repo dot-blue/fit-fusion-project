@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import OurMethod from "./components/OurMethod";
 import MobileApp from "./components/MobileApp";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <OurMethod />
       <MobileApp />
+      <Footer />
     </div>
   );
 }
